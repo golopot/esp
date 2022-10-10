@@ -1,0 +1,1 @@
+while inotifywait -r -e close_write --quiet . ; do clear; ./diff.sh; done

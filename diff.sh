@@ -1,0 +1,1 @@
+diff --old-line-format='- %L' --new-line-format='+ %L' --unchanged-line-format='  %L'   <(node a.js) <(node a.js --ts)   | sed "s/^-/$(tput setaf 1)&/; s/^+/$(tput setaf 2)&/; s/^@/$(tput setaf 6)&/; s/$/$(tput sgr0)/"

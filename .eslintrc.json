@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-unused-vars": 0,
+    "no-fallthrough": 2,
+    "no-undef": 0
+  }
+}
