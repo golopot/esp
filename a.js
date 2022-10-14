@@ -5,7 +5,7 @@ const s = readFileSync(
 ).toString();
 import { parse } from "./lib/parse.js";
 
-const code = "";
+const code = "({f(){}})";
 
 let parseFn = parse;
 if (process.argv.includes("--ts")) {
@@ -63,7 +63,28 @@ function sortObject(object, overrides = []) {
   return sortedObj;
 }
 
-let ast = parseFn(code || s).body;
-ast = sortObject(ast, ["type", "span", "range"]);
+function deleteProperties(tree) {
+  if (!tree || typeof tree === "string") {
+    return;
+  }
+  for (let k in tree) {
+    if (
+      [
+        "typeParameters",
+        "returnType",
+        "typeAnnotation",
+        "decorators",
+        "directive",
+      ].includes(k) &&
+      tree[k] == undefined
+    ) {
+      delete tree[k];
+    }
+    deleteProperties(tree[k]);
+  }
+}
 
-console.dir(ast, { depth: null });
+let ast = parseFn(code || s);
+ast = sortObject(ast, ["type", "span", "range"]);
+deleteProperties(ast);
+ast = console.dir(ast, { depth: null });

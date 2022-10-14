@@ -1,0 +1,860 @@
+{
+  "ArrayExpression": {
+    "elements": [],
+    "range": []
+  },
+  "ArrayPattern": {
+    "elements": [],
+    "range": [],
+    "typeAnnotation": {},
+    "decorators": []
+  },
+  "ArrowFunctionExpression": {
+    "generator": {},
+    "id": {},
+    "params": [],
+    "body": {},
+    "async": {},
+    "expression": {},
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "AssignmentExpression": {
+    "operator": "",
+    "left": {},
+    "right": {},
+    "range": []
+  },
+  "AssignmentPattern": {
+    "left": {},
+    "right": {},
+    "range": [],
+    "decorators": []
+  },
+  "AwaitExpression": {
+    "argument": {},
+    "range": []
+  },
+  "BinaryExpression": {
+    "operator": "",
+    "left": {},
+    "right": {},
+    "range": []
+  },
+  "BlockStatement": {
+    "body": [],
+    "range": []
+  },
+  "BreakStatement": {
+    "label": {},
+    "range": []
+  },
+  "CallExpression": {
+    "callee": {},
+    "arguments": [],
+    "optional": {},
+    "range": [],
+    "typeParameters": {}
+  },
+  "CatchClause": {
+    "param": {},
+    "body": {},
+    "range": []
+  },
+  "ChainExpression": {
+    "expression": {},
+    "range": []
+  },
+  "ClassBody": {
+    "body": [],
+    "range": []
+  },
+  "ClassDeclaration": {
+    "id": {},
+    "body": {},
+    "superClass": {},
+    "range": [],
+    "typeParameters": {},
+    "superTypeParameters": {},
+    "abstract": {},
+    "implements": [],
+    "declare": {},
+    "decorators": []
+  },
+  "ClassExpression": {
+    "id": {},
+    "body": {},
+    "superClass": {},
+    "range": []
+  },
+  "ConditionalExpression": {
+    "test": {},
+    "consequent": {},
+    "alternate": {},
+    "range": []
+  },
+  "ContinueStatement": {
+    "label": {},
+    "range": []
+  },
+  "Decorator": {
+    "expression": {},
+    "range": []
+  },
+  "DoWhileStatement": {
+    "test": {},
+    "body": {},
+    "range": []
+  },
+  "EmptyStatement": {
+    "range": []
+  },
+  "ExportAllDeclaration": {
+    "source": {},
+    "exportKind": "",
+    "exported": {},
+    "assertions": [],
+    "range": []
+  },
+  "ExportDefaultDeclaration": {
+    "declaration": {},
+    "exportKind": "",
+    "range": []
+  },
+  "ExportNamedDeclaration": {
+    "declaration": {},
+    "specifiers": [],
+    "source": {},
+    "exportKind": "",
+    "range": [],
+    "assertions": []
+  },
+  "ExportSpecifier": {
+    "local": {},
+    "exported": {},
+    "exportKind": "",
+    "range": []
+  },
+  "ExpressionStatement": {
+    "expression": {},
+    "range": [],
+    "directive": ""
+  },
+  "ForInStatement": {
+    "left": {},
+    "right": {},
+    "body": {},
+    "range": []
+  },
+  "ForOfStatement": {
+    "left": {},
+    "right": {},
+    "body": {},
+    "await": {},
+    "range": []
+  },
+  "ForStatement": {
+    "init": {},
+    "test": {},
+    "update": {},
+    "body": {},
+    "range": []
+  },
+  "FunctionDeclaration": {
+    "id": {},
+    "generator": {},
+    "expression": {},
+    "async": {},
+    "params": [],
+    "body": {},
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "FunctionExpression": {
+    "id": {},
+    "params": [],
+    "generator": {},
+    "expression": {},
+    "async": {},
+    "body": {},
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "Identifier": {
+    "name": "",
+    "range": [],
+    "typeAnnotation": {},
+    "optional": {},
+    "decorators": [],
+    "loc": {}
+  },
+  "IfStatement": {
+    "test": {},
+    "consequent": {},
+    "alternate": {},
+    "range": []
+  },
+  "ImportAttribute": {
+    "key": {},
+    "value": {},
+    "range": []
+  },
+  "ImportDeclaration": {
+    "source": {},
+    "specifiers": [],
+    "importKind": "",
+    "assertions": [],
+    "range": []
+  },
+  "ImportDefaultSpecifier": {
+    "local": {},
+    "range": []
+  },
+  "ImportExpression": {
+    "source": {},
+    "attributes": {},
+    "range": []
+  },
+  "ImportNamespaceSpecifier": {
+    "local": {},
+    "range": []
+  },
+  "ImportSpecifier": {
+    "local": {},
+    "imported": {},
+    "importKind": "",
+    "range": []
+  },
+  "JSXAttribute": {
+    "name": {},
+    "value": {},
+    "range": []
+  },
+  "JSXClosingElement": {
+    "name": {},
+    "range": []
+  },
+  "JSXClosingFragment": {
+    "range": []
+  },
+  "JSXElement": {
+    "openingElement": {},
+    "closingElement": {},
+    "children": [],
+    "range": []
+  },
+  "JSXExpressionContainer": {
+    "expression": {},
+    "range": []
+  },
+  "JSXFragment": {
+    "openingFragment": {},
+    "closingFragment": {},
+    "children": [],
+    "range": []
+  },
+  "JSXIdentifier": {
+    "name": "",
+    "range": []
+  },
+  "JSXMemberExpression": {
+    "object": {},
+    "property": {},
+    "range": []
+  },
+  "JSXOpeningElement": {
+    "typeParameters": {},
+    "selfClosing": {},
+    "name": {},
+    "attributes": [],
+    "range": []
+  },
+  "JSXOpeningFragment": {
+    "range": []
+  },
+  "JSXSpreadAttribute": {
+    "argument": {},
+    "range": []
+  },
+  "JSXText": {
+    "value": "",
+    "raw": "",
+    "range": []
+  },
+  "Literal": {
+    "value": {},
+    "raw": "",
+    "range": [],
+    "regex": {}
+  },
+  "LogicalExpression": {
+    "operator": "",
+    "left": {},
+    "right": {},
+    "range": []
+  },
+  "MemberExpression": {
+    "object": {},
+    "property": {},
+    "computed": {},
+    "optional": {},
+    "range": []
+  },
+  "MetaProperty": {
+    "meta": {},
+    "property": {},
+    "range": []
+  },
+  "MethodDefinition": {
+    "key": {},
+    "value": {},
+    "computed": {},
+    "static": {},
+    "kind": "",
+    "override": {},
+    "range": [],
+    "accessibility": "",
+    "optional": {},
+    "decorators": []
+  },
+  "NewExpression": {
+    "callee": {},
+    "arguments": [],
+    "range": [],
+    "typeParameters": {}
+  },
+  "ObjectExpression": {
+    "properties": [],
+    "range": []
+  },
+  "ObjectPattern": {
+    "properties": [],
+    "range": [],
+    "typeAnnotation": {},
+    "decorators": []
+  },
+  "PrivateIdentifier": {
+    "name": "",
+    "range": []
+  },
+  "Program": {
+    "body": [],
+    "sourceType": "",
+    "range": []
+  },
+  "Property": {
+    "key": {},
+    "value": {},
+    "computed": {},
+    "method": {},
+    "shorthand": {},
+    "kind": "",
+    "range": []
+  },
+  "PropertyDefinition": {
+    "key": {},
+    "value": {},
+    "computed": {},
+    "static": {},
+    "readonly": {},
+    "declare": {},
+    "override": {},
+    "range": [],
+    "typeAnnotation": {},
+    "accessibility": "",
+    "optional": {},
+    "decorators": [],
+    "definite": {}
+  },
+  "RestElement": {
+    "argument": {},
+    "range": [],
+    "typeAnnotation": {},
+    "decorators": []
+  },
+  "ReturnStatement": {
+    "argument": {},
+    "range": []
+  },
+  "SpreadElement": {
+    "argument": {},
+    "range": []
+  },
+  "StaticBlock": {
+    "body": [],
+    "range": []
+  },
+  "Super": {
+    "range": []
+  },
+  "SwitchCase": {
+    "test": {},
+    "consequent": [],
+    "range": []
+  },
+  "SwitchStatement": {
+    "discriminant": {},
+    "cases": [],
+    "range": []
+  },
+  "TSAbstractKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSAbstractMethodDefinition": {
+    "key": {},
+    "value": {},
+    "computed": {},
+    "static": {},
+    "kind": "",
+    "override": {},
+    "range": []
+  },
+  "TSAbstractPropertyDefinition": {
+    "key": {},
+    "value": {},
+    "computed": {},
+    "static": {},
+    "readonly": {},
+    "declare": {},
+    "override": {},
+    "range": [],
+    "typeAnnotation": {},
+    "accessibility": ""
+  },
+  "TSAnyKeyword": {
+    "range": []
+  },
+  "TSArrayType": {
+    "elementType": {},
+    "range": []
+  },
+  "TSAsExpression": {
+    "expression": {},
+    "typeAnnotation": {},
+    "range": []
+  },
+  "TSAsyncKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSBigIntKeyword": {
+    "range": []
+  },
+  "TSBooleanKeyword": {
+    "range": []
+  },
+  "TSCallSignatureDeclaration": {
+    "params": [],
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "TSClassImplements": {
+    "expression": {},
+    "range": [],
+    "typeParameters": {}
+  },
+  "TSConditionalType": {
+    "checkType": {},
+    "extendsType": {},
+    "trueType": {},
+    "falseType": {},
+    "range": []
+  },
+  "TSConstructSignatureDeclaration": {
+    "params": [],
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "TSConstructorType": {
+    "params": [],
+    "abstract": {},
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "TSDeclareFunction": {
+    "id": {},
+    "generator": {},
+    "expression": {},
+    "async": {},
+    "params": [],
+    "body": {},
+    "range": [],
+    "returnType": {},
+    "typeParameters": {},
+    "declare": {}
+  },
+  "TSEmptyBodyFunctionExpression": {
+    "id": {},
+    "generator": {},
+    "expression": {},
+    "async": {},
+    "body": {},
+    "range": [],
+    "params": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "TSEnumDeclaration": {
+    "id": {},
+    "members": [],
+    "range": [],
+    "const": {},
+    "declare": {},
+    "modifiers": []
+  },
+  "TSEnumMember": {
+    "id": {},
+    "range": [],
+    "initializer": {},
+    "computed": {}
+  },
+  "TSExportAssignment": {
+    "expression": {},
+    "range": []
+  },
+  "TSExternalModuleReference": {
+    "expression": {},
+    "range": []
+  },
+  "TSFunctionType": {
+    "params": [],
+    "range": [],
+    "returnType": {},
+    "typeParameters": {}
+  },
+  "TSImportEqualsDeclaration": {
+    "id": {},
+    "moduleReference": {},
+    "importKind": "",
+    "isExport": {},
+    "range": []
+  },
+  "TSImportType": {
+    "isTypeOf": {},
+    "parameter": {},
+    "qualifier": {},
+    "typeParameters": {},
+    "range": []
+  },
+  "TSIndexSignature": {
+    "parameters": [],
+    "range": [],
+    "typeAnnotation": {},
+    "readonly": {},
+    "export": {},
+    "accessibility": "",
+    "static": {}
+  },
+  "TSIndexedAccessType": {
+    "objectType": {},
+    "indexType": {},
+    "range": []
+  },
+  "TSInferType": {
+    "typeParameter": {},
+    "range": []
+  },
+  "TSInstantiationExpression": {
+    "expression": {},
+    "range": [],
+    "typeParameters": {}
+  },
+  "TSInterfaceBody": {
+    "body": [],
+    "range": []
+  },
+  "TSInterfaceDeclaration": {
+    "body": {},
+    "id": {},
+    "range": [],
+    "extends": [],
+    "typeParameters": {},
+    "declare": {},
+    "implements": [],
+    "abstract": {}
+  },
+  "TSInterfaceHeritage": {
+    "expression": {},
+    "range": [],
+    "typeParameters": {},
+    "loc": {}
+  },
+  "TSIntersectionType": {
+    "types": [],
+    "range": []
+  },
+  "TSIntrinsicKeyword": {
+    "range": []
+  },
+  "TSLiteralType": {
+    "literal": {},
+    "range": []
+  },
+  "TSMappedType": {
+    "typeParameter": {},
+    "nameType": {},
+    "range": [],
+    "readonly": {},
+    "typeAnnotation": {},
+    "optional": {}
+  },
+  "TSMethodSignature": {
+    "computed": {},
+    "key": {},
+    "params": [],
+    "kind": "",
+    "range": [],
+    "returnType": {},
+    "optional": {},
+    "typeParameters": {},
+    "accessibility": "",
+    "export": {},
+    "readonly": {},
+    "static": {}
+  },
+  "TSModuleBlock": {
+    "body": [],
+    "range": []
+  },
+  "TSModuleDeclaration": {
+    "id": {},
+    "range": [],
+    "body": {},
+    "declare": {},
+    "global": {}
+  },
+  "TSNamedTupleMember": {
+    "elementType": {},
+    "label": {},
+    "optional": {},
+    "range": []
+  },
+  "TSNamespaceExportDeclaration": {
+    "id": {},
+    "range": []
+  },
+  "TSNeverKeyword": {
+    "range": []
+  },
+  "TSNonNullExpression": {
+    "expression": {},
+    "range": []
+  },
+  "TSNullKeyword": {
+    "range": []
+  },
+  "TSNumberKeyword": {
+    "range": []
+  },
+  "TSObjectKeyword": {
+    "range": []
+  },
+  "TSOptionalType": {
+    "typeAnnotation": {},
+    "range": []
+  },
+  "TSParameterProperty": {
+    "accessibility": "",
+    "readonly": {},
+    "static": {},
+    "export": {},
+    "override": {},
+    "parameter": {},
+    "range": [],
+    "decorators": []
+  },
+  "TSPrivateKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSPropertySignature": {
+    "optional": {},
+    "computed": {},
+    "key": {},
+    "typeAnnotation": {},
+    "initializer": {},
+    "readonly": {},
+    "static": {},
+    "export": {},
+    "range": [],
+    "accessibility": ""
+  },
+  "TSProtectedKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSPublicKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSQualifiedName": {
+    "left": {},
+    "right": {},
+    "range": []
+  },
+  "TSReadonlyKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSRestType": {
+    "typeAnnotation": {},
+    "range": []
+  },
+  "TSStaticKeyword": {
+    "range": [],
+    "loc": {}
+  },
+  "TSStringKeyword": {
+    "range": []
+  },
+  "TSSymbolKeyword": {
+    "range": []
+  },
+  "TSTemplateLiteralType": {
+    "quasis": [],
+    "types": [],
+    "range": []
+  },
+  "TSThisType": {
+    "range": []
+  },
+  "TSTupleType": {
+    "elementTypes": [],
+    "range": []
+  },
+  "TSTypeAliasDeclaration": {
+    "id": {},
+    "typeAnnotation": {},
+    "range": [],
+    "typeParameters": {},
+    "declare": {}
+  },
+  "TSTypeAnnotation": {
+    "range": [],
+    "typeAnnotation": {}
+  },
+  "TSTypeLiteral": {
+    "members": [],
+    "range": []
+  },
+  "TSTypeOperator": {
+    "operator": "",
+    "typeAnnotation": {},
+    "range": []
+  },
+  "TSTypeParameter": {
+    "name": {},
+    "constraint": {},
+    "default": {},
+    "in": {},
+    "out": {},
+    "range": []
+  },
+  "TSTypeParameterDeclaration": {
+    "range": [],
+    "params": []
+  },
+  "TSTypeParameterInstantiation": {
+    "range": [],
+    "params": []
+  },
+  "TSTypePredicate": {
+    "asserts": {},
+    "parameterName": {},
+    "typeAnnotation": {},
+    "range": []
+  },
+  "TSTypeQuery": {
+    "exprName": {},
+    "typeParameters": {},
+    "range": []
+  },
+  "TSTypeReference": {
+    "typeName": {},
+    "typeParameters": {},
+    "range": []
+  },
+  "TSUndefinedKeyword": {
+    "range": []
+  },
+  "TSUnionType": {
+    "types": [],
+    "range": []
+  },
+  "TSUnknownKeyword": {
+    "range": []
+  },
+  "TSVoidKeyword": {
+    "range": []
+  },
+  "TaggedTemplateExpression": {
+    "typeParameters": {},
+    "tag": {},
+    "quasi": {},
+    "range": []
+  },
+  "TemplateElement": {
+    "value": {},
+    "tail": {},
+    "range": []
+  },
+  "TemplateLiteral": {
+    "quasis": [],
+    "expressions": [],
+    "range": []
+  },
+  "ThisExpression": {
+    "range": []
+  },
+  "ThrowStatement": {
+    "argument": {},
+    "range": []
+  },
+  "TryStatement": {
+    "block": {},
+    "handler": {},
+    "finalizer": {},
+    "range": []
+  },
+  "UnaryExpression": {
+    "operator": "",
+    "prefix": {},
+    "argument": {},
+    "range": []
+  },
+  "UpdateExpression": {
+    "operator": "",
+    "prefix": {},
+    "argument": {},
+    "range": []
+  },
+  "VariableDeclaration": {
+    "declarations": [],
+    "kind": "",
+    "range": [],
+    "declare": {}
+  },
+  "VariableDeclarator": {
+    "id": {},
+    "init": {},
+    "range": [],
+    "definite": {}
+  },
+  "WhileStatement": {
+    "test": {},
+    "body": {},
+    "range": []
+  },
+  "YieldExpression": {
+    "delegate": {},
+    "argument": {},
+    "range": []
+  }
+}
