@@ -5,7 +5,7 @@ const s = readFileSync(
 ).toString();
 import { parse } from "./lib/parse.js";
 
-const code = "class f{ q(){}}";
+const code = "class f {}";
 
 let parseFn = parse;
 if (process.argv.includes("--ts")) {
