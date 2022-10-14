@@ -1,11 +1,11 @@
 import { parse as tsParse } from "@typescript-eslint/parser";
 import { readFileSync } from "fs";
 const s = readFileSync(
-  "./fixture/repos/typescript-eslint-5.39.0/packages/eslint-plugin/src/rules/naming-convention-utils/format.ts"
+  "/home/jchn/swc-eslint-parser/fixture/repos/typescript-eslint-5.39.0/packages/scope-manager/src/referencer/PatternVisitor.ts"
 ).toString();
 import { parse } from "./lib/parse.js";
 
-const code = "({f(){}})";
+const code = "class f{ q(){}}";
 
 let parseFn = parse;
 if (process.argv.includes("--ts")) {
@@ -85,6 +85,6 @@ function deleteProperties(tree) {
 }
 
 let ast = parseFn(code || s);
-ast = sortObject(ast, ["type", "span", "range"]);
+ast = sortObject(ast.body, ["type", "span", "range"]);
 deleteProperties(ast);
 ast = console.dir(ast, { depth: null });
